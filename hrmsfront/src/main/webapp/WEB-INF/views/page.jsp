@@ -92,6 +92,50 @@
             <c:if test="${userClickHome == true }">
             	<%@include file="./home.jsp" %>
             </c:if>
+            
+            <c:if test="${userClickCompanyStructure == true }">
+            	<%@include file="./admin/company-structure.jsp" %>
+            </c:if>
+            
+            <c:if test="${userClickJobDetailsSetup == true }">
+            	<%@include file="./admin/job-details-setup.jsp" %>
+            </c:if>
+            
+            <c:if test="${userClickQualificationSetup == true }">
+            	<%@include file="./admin/qualification-setup.jsp" %>
+            </c:if>
+            
+            <c:if test="${userClickProjectClientSetup == true }">
+            	<%@include file="./admin/project-client-setup.jsp" %>
+            </c:if>
+            
+            <c:if test="${userClickOvertimeAdministration == true }">
+            	<%@include file="./admin/overtime-administration.jsp" %>
+            </c:if>
+            
+            <c:if test="${userClickEmployeeCustomFields == true }">
+            	<%@include file="./admin/employee-custom-fields.jsp" %>
+            </c:if>
+            
+            <c:if test="${userClickCompanyLoans == true }">
+            	<%@include file="./admin/company-loans.jsp" %>
+            </c:if>
+            
+            <c:if test="${userClickEmployees == true }">
+            	<%@include file="./employee/employees.jsp" %>
+            </c:if>
+            
+            <c:if test="${userClickTravelRequests == true }">
+            	<%@include file="./employee/travel-requests.jsp" %>
+            </c:if>
+            
+            <c:if test="${userClickMonitorAttendance == true }">
+            	<%@include file="./employee/monitor-attendance.jsp" %>
+            </c:if>
+            
+            <c:if test="${userClickReports == true }">
+            	<%@include file="./reports/reports.jsp" %>
+            </c:if>
             <!-- .animated -->
         </div>
         <!-- /.content -->

@@ -2,7 +2,7 @@
 	<nav class="navbar navbar-expand-sm navbar-default">
 		<div id="main-menu" class="main-menu collapse navbar-collapse">
 			<ul class="nav navbar-nav">
-				<li class="active"><a href="index.html"><i
+				<li class="active"><a href="${contextRoot}/home"><i
 						class="menu-icon fa fa-laptop"></i>Dashboard </a></li>
 				<li class="menu-title">Admin Details</li>
 				<!-- /.menu-title -->
@@ -11,20 +11,20 @@
 					aria-expanded="false"> <i class="menu-icon fa fa-cubes"></i>Admin
 				</a>
 					<ul class="sub-menu children dropdown-menu">
-						<li><i class="fa fa-building-o"></i><a href="ui-buttons.html">Company
+						<li><i class="fa fa-building-o"></i><a href="${contextRoot}/admin/company-structure">Company
 								Structure</a></li>
-						<li><i class="fa fa-columns"></i><a href="ui-badges.html">Job
+						<li><i class="fa fa-columns"></i><a href="${contextRoot}/admin/job-details-setup">Job
 								Details Setup</a></li>
 						<li><i class="fa fa-check-square-o"></i><a
-							href="ui-tabs.html">Qualification Setup</a></li>
+							href="${contextRoot}/admin/qualification-setup">Qualification Setup</a></li>
 
-						<li><i class="fa fa-list-alt"></i><a href="ui-cards.html">Project/Client
+						<li><i class="fa fa-list-alt"></i><a href="${contextRoot}/admin/project-client-setup">Project/Client
 								Setup</a></li>
 						<li><i class="fa fa-align-center"></i><a
-							href="ui-alerts.html">Overtime Administration</a></li>
+							href="${contextRoot}/admin/overtime-administration">Overtime Administration</a></li>
 						<li><i class="fa fa-sliders"></i><a
-							href="ui-progressbar.html">Employee Custom Fields</a></li>
-						<li><i class="fa fa-shield"></i><a href="ui-modals.html">Company
+							href="${contextRoot}/admin/employee-custom-fields">Employee Custom Fields</a></li>
+						<li><i class="fa fa-shield"></i><a href="${contextRoot}/admin/company-loans">Company
 								Loans</a></li>
 					</ul></li>
 				<li class="menu-item-has-children dropdown"><a href="#"
@@ -32,10 +32,10 @@
 					aria-expanded="false"> <i class="menu-icon fa fa-users"></i>Employee
 				</a>
 					<ul class="sub-menu children dropdown-menu">
-						<li><i class="fa fa-users"></i><a href="tables-basic.html">Employees</a></li>
-						<li><i class="fa fa-plane"></i><a href="tables-data.html">Travel
+						<li><i class="fa fa-users"></i><a href="${contextRoot}/employee/employees">Employees</a></li>
+						<li><i class="fa fa-plane"></i><a href="${contextRoot}/employee/travel-requests">Travel
 								Requests</a></li>
-						<li><i class="fa fa-clock-o"></i><a href="tables-data.html">Monitor
+						<li><i class="fa fa-clock-o"></i><a href="${contextRoot}/employee/monitor-attendance">Monitor
 								Attendance</a></li>
 					</ul></li>
 				<li class="menu-item-has-children dropdown"><a href="#"
@@ -44,7 +44,7 @@
 				</a>
 					<ul class="sub-menu children dropdown-menu">
 						<li><i class="menu-icon fa fa-file-o"></i><a
-							href="forms-basic.html">Reports</a></li>
+							href="${contextRoot}/reports/reports">Reports</a></li>
 					</ul></li>
 
 				<li class="menu-title">Systems & Application</li>
@@ -56,27 +56,27 @@
 				</a>
 					<ul class="sub-menu children dropdown-menu">
 						<li><i class="menu-icon fa fa-cogs"></i><a
-							href="font-fontawesome.html">Setting</a></li>
+							href="${contextRoot}/system/setting">Setting</a></li>
 						<li><i class="menu-icon fa fa-user"></i><a
-							href="font-themify.html">Users</a></li>
+							href="${contextRoot}/system/users">Users</a></li>
 						<li><i class="menu-icon fa fa-folder-open"></i><a
-							href="font-themify.html">Manage Modules</a></li>
+							href="${contextRoot}/system/manage-modules">Manage Modules</a></li>
 						<li><i class="menu-icon fa fa-unlock"></i><a
-							href="font-themify.html">Manage Permission</a></li>
+							href="${contextRoot}/system/manage-permission">Manage Permission</a></li>
 						<li><i class="menu-icon fa fa-sort-alpha-asc"></i><a
-							href="font-themify.html">Manage Metadata</a></li>
+							href="${contextRoot}/system/manage-metadata">Manage Metadata</a></li>
 						<li><i class="menu-icon fa fa-database"></i><a
-							href="font-themify.html">Data</a></li>
+							href="${contextRoot}/system/data">Data</a></li>
 					</ul></li>
 				<li class="menu-item-has-children dropdown"><a href="#"
 					class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
-					aria-expanded="false"> <i class="menu-icon fa fa-money"></i>Charts
+					aria-expanded="false"> <i class="menu-icon fa fa-money"></i>Payroll
 				</a>
 					<ul class="sub-menu children dropdown-menu">
 						<li><i class="menu-icon fa fa-money"></i><a
-							href="charts-chartjs.html">Salary</a></li>
+							href="${contextRoot}/payroll/salary">Salary</a></li>
 						<li><i class="menu-icon fa fa-cogs"></i><a
-							href="charts-flot.html">Payroll Reports</a></li>
+							href="${contextRoot}/payroll/payroll-reports">Payroll Reports</a></li>
 					</ul></li>
 
 				<li class="menu-item-has-children dropdown"><a href="#"
@@ -86,15 +86,15 @@
 				</a>
 					<ul class="sub-menu children dropdown-menu">
 						<li><i class="menu-icon fa fa-desktop"></i><a
-							href="maps-gmap.html">Dashboard</a></li>
+							href="${contextRoot}/personal/personal-dashboard">Dashboard</a></li>
 						<li><i class="menu-icon fa fa-user"></i><a
-							href="maps-vector.html">Basic Information</a></li>
+							href="${contextRoot}/personal/basic-information">Basic Information</a></li>
 						<li><i class="menu-icon fa fa-graduation-cap"></i><a
-							href="maps-vector.html">Qualification</a></li>
+							href="${contextRoot}/personal/qualification">Qualification</a></li>
 						<li><i class="menu-icon fa fa-sliders"></i><a
-							href="maps-vector.html">Dependents</a></li>
+							href="${contextRoot}/personal/dependents">Dependents</a></li>
 						<li><i class="menu-icon fa fa-phone-square"></i><a
-							href="maps-vector.html">Emergency Contacts</a></li>
+							href="${contextRoot}/personal/emergency-contacts">Emergency Contacts</a></li>
 					</ul></li>
 				<li class="menu-title">Extras</li>
 				<!-- /.menu-title -->
@@ -105,13 +105,13 @@
 				</a>
 					<ul class="sub-menu children dropdown-menu">
 						<li><i class="menu-icon fa fa-pencil-square"></i><a
-							href="page-login.html">Projects</a></li>
+							href="${contextRoot}/management/time-management-projects">Projects</a></li>
 						<li><i class="menu-icon fa fa-clock-o"></i><a
-							href="page-register.html">Attendance</a></li>
+							href="${contextRoot}/management/time-management-attendence">Attendance</a></li>
 						<li><i class="menu-icon fa fa-check-circle-o"></i><a
-							href="pages-forget.html">Time Sheets</a></li>
+							href="${contextRoot}/management/time-sheets">Time Sheets</a></li>
 						<li><i class="menu-icon fa fa-align-center"></i><a
-							href="pages-forget.html">Overtime Requests</a></li>
+							href="${contextRoot}/management/overtime-requests">Overtime Requests</a></li>
 					</ul></li>
 				<li class="menu-item-has-children dropdown"><a href="#"
 					class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
@@ -119,7 +119,7 @@
 				</a>
 					<ul class="sub-menu children dropdown-menu">
 						<li><i class="menu-icon fa fa-users"></i><a
-							href="page-login.html">Staff Directory</a></li>
+							href="${contextRoot}/company/staff-directory">Staff Directory</a></li>
 					</ul></li>
 					<li class="menu-item-has-children dropdown"><a href="#"
 					class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
@@ -127,7 +127,7 @@
 				</a>
 					<ul class="sub-menu children dropdown-menu">
 						<li><i class="menu-icon fa fa-plane"></i><a
-							href="page-login.html">Travel</a></li>
+							href="${contextRoot}/travel-management/travel">Travel</a></li>
 					</ul></li>
 					<li class="menu-item-has-children dropdown"><a href="#"
 					class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
@@ -135,9 +135,9 @@
 				</a>
 					<ul class="sub-menu children dropdown-menu">
 						<li><i class="menu-icon fa fa-calculator"></i><a
-							href="page-login.html">Salary</a></li>
+							href="${contextRoot}/finance/finance-salary">Salary</a></li>
 						<li><i class="menu-icon fa fa-shield"></i><a
-							href="page-login.html">Loans</a></li>
+							href="${contextRoot}/finance/finance-loans">Loans</a></li>
 					</ul></li>
 				<li class="menu-item-has-children dropdown"><a href="#"
 					class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
@@ -145,7 +145,7 @@
 				</a>
 					<ul class="sub-menu children dropdown-menu">
 						<li><i class="menu-icon fa fa-file-o"></i><a
-							href="page-login.html">Reports</a></li>
+							href="${contextRoot}/user-reports/user-reports">Reports</a></li>
 					</ul></li>
 			</ul>
 		</div>

@@ -13,7 +13,7 @@
 								<div class="stat-text">
 									$<span class="count">23569</span>
 								</div>
-								<div class="stat-heading">Revenue</div>
+								<div class="stat-heading">People</div>
 							</div>
 						</div>
 					</div>
@@ -33,7 +33,7 @@
 								<div class="stat-text">
 									<span class="count">3435</span>
 								</div>
-								<div class="stat-heading">Sales</div>
+								<div class="stat-heading">Company</div>
 							</div>
 						</div>
 					</div>
@@ -53,7 +53,7 @@
 								<div class="stat-text">
 									<span class="count">349</span>
 								</div>
-								<div class="stat-heading">Templates</div>
+								<div class="stat-heading">Projects</div>
 							</div>
 						</div>
 					</div>
@@ -73,7 +73,7 @@
 								<div class="stat-text">
 									<span class="count">2986</span>
 								</div>
-								<div class="stat-heading">Clients</div>
+								<div class="stat-heading">Attendance</div>
 							</div>
 						</div>
 					</div>
@@ -95,7 +95,7 @@
 								<div class="stat-text">
 									$<span class="count">23569</span>
 								</div>
-								<div class="stat-heading">Revenue</div>
+								<div class="stat-heading">Reports</div>
 							</div>
 						</div>
 					</div>
@@ -115,7 +115,7 @@
 								<div class="stat-text">
 									<span class="count">3435</span>
 								</div>
-								<div class="stat-heading">Sales</div>
+								<div class="stat-heading">Applicants</div>
 							</div>
 						</div>
 					</div>
@@ -135,7 +135,7 @@
 								<div class="stat-text">
 									<span class="count">349</span>
 								</div>
-								<div class="stat-heading">Templates</div>
+								<div class="stat-heading">Training</div>
 							</div>
 						</div>
 					</div>
@@ -155,7 +155,7 @@
 								<div class="stat-text">
 									<span class="count">2986</span>
 								</div>
-								<div class="stat-heading">Clients</div>
+								<div class="stat-heading">Travel</div>
 							</div>
 						</div>
 					</div>
@@ -177,7 +177,7 @@
 								<div class="stat-text">
 									$<span class="count">23569</span>
 								</div>
-								<div class="stat-heading">Revenue</div>
+								<div class="stat-heading">Documents</div>
 							</div>
 						</div>
 					</div>
@@ -197,7 +197,7 @@
 								<div class="stat-text">
 									<span class="count">3435</span>
 								</div>
-								<div class="stat-heading">Sales</div>
+								<div class="stat-heading">Expense</div>
 							</div>
 						</div>
 					</div>
@@ -217,7 +217,7 @@
 								<div class="stat-text">
 									<span class="count">349</span>
 								</div>
-								<div class="stat-heading">Templates</div>
+								<div class="stat-heading">HR Form</div>
 							</div>
 						</div>
 					</div>
@@ -237,7 +237,7 @@
 								<div class="stat-text">
 									<span class="count">2986</span>
 								</div>
-								<div class="stat-heading">Clients</div>
+								<div class="stat-heading">My Profile</div>
 							</div>
 						</div>
 					</div>
@@ -259,7 +259,7 @@
 								<div class="stat-text">
 									$<span class="count">23569</span>
 								</div>
-								<div class="stat-heading">Revenue</div>
+								<div class="stat-heading">Punch In</div>
 							</div>
 						</div>
 					</div>
@@ -279,7 +279,7 @@
 								<div class="stat-text">
 									<span class="count">3435</span>
 								</div>
-								<div class="stat-heading">Sales</div>
+								<div class="stat-heading">Leaves</div>
 							</div>
 						</div>
 					</div>
@@ -299,7 +299,7 @@
 								<div class="stat-text">
 									<span class="count">349</span>
 								</div>
-								<div class="stat-heading">Templates</div>
+								<div class="stat-heading">Working Hours</div>
 							</div>
 						</div>
 					</div>
@@ -319,7 +319,7 @@
 								<div class="stat-text">
 									<span class="count">2986</span>
 								</div>
-								<div class="stat-heading">Clients</div>
+								<div class="stat-heading">My Projects</div>
 							</div>
 						</div>
 					</div>
@@ -341,7 +341,7 @@
 								<div class="stat-text">
 									$<span class="count">23569</span>
 								</div>
-								<div class="stat-heading">Revenue</div>
+								<div class="stat-heading">Store</div>
 							</div>
 						</div>
 					</div>
@@ -361,7 +361,7 @@
 								<div class="stat-text">
 									<span class="count">3435</span>
 								</div>
-								<div class="stat-heading">Sales</div>
+								<div class="stat-heading">My Travel</div>
 							</div>
 						</div>
 					</div>
@@ -381,7 +381,7 @@
 								<div class="stat-text">
 									<span class="count">349</span>
 								</div>
-								<div class="stat-heading">Templates</div>
+								<div class="stat-heading">My Expense</div>
 							</div>
 						</div>
 					</div>
@@ -401,7 +401,7 @@
 								<div class="stat-text">
 									<span class="count">2986</span>
 								</div>
-								<div class="stat-heading">Clients</div>
+								<div class="stat-heading">HR Forms</div>
 							</div>
 						</div>
 					</div>
@@ -423,7 +423,7 @@
 								<div class="stat-text">
 									$<span class="count">23569</span>
 								</div>
-								<div class="stat-heading">Revenue</div>
+								<div class="stat-heading">Current Sheets</div>
 							</div>
 						</div>
 					</div>
