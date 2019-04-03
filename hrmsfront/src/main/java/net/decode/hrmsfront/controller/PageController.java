@@ -1,17 +1,26 @@
 package net.decode.hrmsfront.controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
+import net.decode.hrmsback.dao.TypeDAO;
+
 @Controller
 public class PageController {
+	
+	@Autowired
+	private TypeDAO typeDAO;
 
 	@RequestMapping(value = { "/", "/home", "/index" })
 	public ModelAndView index() {
 		ModelAndView mv = new ModelAndView("page");
 		mv.addObject("title", "Home");
+		
 		mv.addObject("userClickHome", true);
+		
+		
 		return mv;
 	}
 	
@@ -19,6 +28,9 @@ public class PageController {
 	public ModelAndView company() {
 		ModelAndView mv = new ModelAndView("page");
 		mv.addObject("title", "Company");
+		
+		mv.addObject("types", typeDAO.list());
+		
 		mv.addObject("userClickCompanyStructure", true);
 		return mv;
 	}
