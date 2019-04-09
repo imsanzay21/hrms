@@ -7,13 +7,14 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
-public class Type {
+public class ParentStructure {
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 	private String name;
 	@Column(name = "is_active")
-	private boolean active = true;
+	private boolean active;
 	
 	public int getId() {
 		return id;
@@ -34,8 +35,5 @@ public class Type {
 		this.active = active;
 	}
 	
-	@Override
-	public String toString() {
-		return "Type [id=" + id + ", name=" + name + ", active=" + active + "]";
-	}
+	
 }
